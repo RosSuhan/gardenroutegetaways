@@ -1,0 +1,20 @@
+.mainSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.nameBanner {
+    width: 100%;
+    background: rgb(132, 131, 137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.propertyTitle {
+    width: 80%;
+    color: #ffffff;
+}

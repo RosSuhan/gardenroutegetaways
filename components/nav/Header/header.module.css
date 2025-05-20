@@ -1,0 +1,88 @@
+.header {
+    width: 100vw;
+}
+
+.headerTopRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--darkBackground);
+}
+
+.headerSocialBlock,
+.headerSocialMail {
+    color: #fff;
+    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerSocialBlock{
+    margin-left: 1rem;
+}
+.headerSocialMail{
+    margin-right: 1rem;
+}
+
+.headerSocialLink,
+.header-icon {
+    color: #fff;
+    padding: 0 .5rem;
+}
+
+.headerSocialMail {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.headerSocialMailName {
+    margin-left:1rem;
+}
+
+.headerBottomRow {
+    width: 100vw;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.navBlock {
+    margin-right: 4rem;
+    position: relative;
+    /* background-color: pink; */
+}
+
+.mobileButton {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    .mobileButton {
+        display: initial;
+        margin-right: 2rem;
+        border: none;
+        font-size: 1.6rem;
+    }
+    .headerTopRow {
+        display: none;
+    }
+    
+    .navBlock {
+        display: none;
+    }
+
+    .mobileNavBlock {
+        display: flex;
+        margin-right: 0;
+        position: absolute;
+        background: #eeeeee;
+        top: 8rem;
+        right: 0;
+        width: 50%;
+        padding: 2rem 0;
+    }
+}

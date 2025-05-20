@@ -1,0 +1,114 @@
+.propManKeys {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0 6rem 0;
+}
+
+.propManHeading {
+    font-size: 4rem;
+}
+
+.contentBlock {
+    background: #bbbbba;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    column-gap: 2%;
+}
+
+.imageBlock,
+.wordBlock {
+    width: 49%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wordBlock{
+    flex-direction: column;
+}
+
+.contentImage {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.wordBlockHeading {
+    width: 80%;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.wordBlockparagraph {
+    width: 80%;
+}
+
+@media (max-width:1024px) {
+    .propManHeading {
+        width: 80%;
+        text-align: center;
+    }
+
+    .wordBlock {
+        padding: 1rem 0;
+    }
+
+    .wordBlockHeading {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:819px) {
+    .propManHeading {
+        width: 90%;
+    }
+
+    .contentBlock {
+        width: 90%;
+    }
+
+    .wordBlock {
+        padding: 1rem 0;
+    }
+
+    .wordBlockHeading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:819px) {
+    .propManHeading {
+        font-size: 3rem;
+        width: 90%;
+    }
+
+    .contentBlock {
+        width: 90%;
+    }
+
+    .imageBlock,
+    .wordBlock {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .contentImage {
+        height: 200px;
+    }
+
+    .wordBlock {
+        padding: 1rem 0;
+    }
+
+    .wordBlockHeading {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,175 @@
+.contactForm {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding-bottom: 6rem;
+}
+
+.formIntroBlock {
+    width: 60%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.contactformInput {
+    width: 500px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+
+.formRowBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contactFormSubmitButton {
+    background-color: #2187C2;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+.facilitiesBlock {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.blockHeader {
+    border-top: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.optionBlock {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5%;
+    row-gap: 2rem;
+}
+
+.options {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.optionsLabel {
+    text-wrap: nowrap;
+}
+
+.optionsInput {
+    width: 20%;
+}
+
+.seasonsRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* column-gap: 5%; */
+    
+}
+
+.priceBlock {
+    /* width: 200px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.priceLabel {
+    width: 30%;
+    padding-right: 1rem;
+}
+
+.priceInput {
+    width: 150px;
+    font-size: 1.8rem;
+}
+
+.additionalBlock {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.additionalInput {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+
+.submitButton {
+    background-color: #2187C2;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    box-shadow: #000 5px 5px 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@media (max-width:1024px) {
+    .formIntroBlock {
+        width: 80%;
+    }
+}
+
+@media (max-width:819px) {
+    .contactformInput {
+        width: 350px;
+    }
+    
+    .optionBlock {
+        justify-content: space-evenly;
+    }
+    
+    .options {
+        width: 40%;
+    }
+
+    .seasonsRowHeading {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .optionsLabel {
+        text-wrap: wrap;
+        font-size: 1.4rem;
+    }
+    .priceBlock {
+        width: 300px;
+    }
+    
+    .priceInput {
+        width: 200px;
+    }
+}
+
+@media (max-width:420px) {
+    .contactForm {
+        padding-bottom: 2rem;
+    }
+    
+    .options {
+        width: 90%;
+    }
+}

@@ -1,0 +1,12 @@
+.aboutSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.aboutParagraph {
+    width: 80%;
+    text-align: center;
+}

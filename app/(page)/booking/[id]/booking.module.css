@@ -1,0 +1,11 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bookingForm {
+    width: 100%;
+    min-height: 100svh;
+}

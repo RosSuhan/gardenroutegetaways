@@ -1,0 +1,112 @@
+.footer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--darkBackground);
+    row-gap: 2rem;
+    padding: 2rem 0;
+}
+
+.footerImageBlock {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+
+.footerNavBlock,
+.footerIconBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footerNavBlock {
+    border-bottom: #ffffff solid 2px;
+    padding: 2rem 0;
+}
+
+.footerNavLink {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 2rem;
+}
+
+.footerIconBlock {
+    padding: 2rem 0;
+    width: 100%;
+    
+}
+
+.footerPraise {
+    color: #ffffff;
+    text-align: center;
+}
+
+.footerReserveRow {
+    width: 100vw;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+@media (max-width:819px) {
+    .footer {
+        justify-content: space-evenly;
+    }
+    .footerImageBlock {
+        padding-left: 2rem;
+    }
+    .footerLogo {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width:600px) {
+    .footerImageBlock {
+        order: 2;
+    }
+
+    .footerBlock {
+        order: 1;
+        width: 80%;
+    }
+
+    .footerReserveRow {
+        order: 4;
+    }
+}
+
+@media (max-width: 355px) {
+    .footerLogo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .footerWhatsapp {
+        width: 3em;
+        height: 3em;
+    }
+    .footerNavBlock,
+    .footerIconBlock {
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 250px) {
+    .footerImageBlock {
+        width: 80%;
+        padding: 0;
+    }
+}

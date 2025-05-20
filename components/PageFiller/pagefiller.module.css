@@ -1,0 +1,33 @@
+.fillerSection {
+    width: 100%;
+    background-image: url(/fillerImage.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 5px 5px #000000;
+    line-height: 2;
+}
+
+@media (max-width: 912px) {
+    .fillerSection {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 819px) {
+    .fillerSection {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .fillerSection {
+        font-size: 2rem;
+    }
+}

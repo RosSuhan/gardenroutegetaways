@@ -1,0 +1,101 @@
+.heroSection,
+.accommHeroSection,
+.manageHeroSection {
+    width: 100%;
+    height: 85svh;
+    background-image: url(/BedwithTowl.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accommHeroSection{
+    background-image: url(/accommheroimage.webp);
+}
+
+.manageHeroSection {
+    background-image: url(/manageHero.webp);
+}
+
+.heroBlock {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff6f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroHeading {
+    width: 80%;
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 3px 2px #696868;
+}
+
+.heroHeading2{
+    width: 80%;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.heroParagraph {
+    width: 80%;
+    font-size: 2rem;
+}
+
+.heroActionButtonRow {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .heroSection,
+    .accommHeroSection,
+    .manageHeroSection 
+    {
+        height: 55svh;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .heroSection,
+    .accommHeroSection,
+    .manageHeroSection 
+    {
+        height: fit-content;
+    }
+
+    .heroBlock {
+        padding: 4rem 0;
+    }
+
+    .heroHeading {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .heroHeading2{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .heroParagraph {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .heroActionButtonRow {
+        justify-content: center;
+    }
+}
